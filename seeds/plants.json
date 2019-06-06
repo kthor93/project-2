@@ -241,6 +241,10 @@
         ],
         "tempDifficulty": 1,
         "totalDifficulty": 4,
+        "potSize": [
+            "small",
+            "medium"
+        ],
         "isPoisonous": true
     },
     {
@@ -547,5 +551,1359 @@
             "medium"
         ],
         "isPoisonous": true
+    },
+    {
+        "commonName": "Caladium Plant",
+        "scientificName": "Caladium",
+        "plantType": "tropical",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Calathea Plant",
+        "scientificName": "Calathea roseopicta",
+        "plantType": "tropical",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Cast Iron Plant",
+        "scientificName": "Aspidistra",
+        "plantType": "evergreen",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 3,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Cat Palm",
+        "scientificName": "Chamaedorea cataractarum",
+        "plantType": "palm",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "China Doll Plant",
+        "scientificName": "Radermachera sinica",
+        "plantType": "shrub",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 6,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Chinese Evergreen Plant",
+        "scientificName": "Aglaonema",
+        "plantType": "evergreen",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Christmas Cactus Plant",
+        "scientificName": "Schlumbergera bridgesii",
+        "plantType": "succulent",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 4,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Chrysanthemum Plant",
+        "scientificName": "Chrysanthemum",
+        "plantType": "flowering",
+        "light": [
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 6,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Cineraria Plant",
+        "scientificName": "Pericallis cruenta",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Clivia Plant",
+        "scientificName": "Clivia miniata",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Coleus Plant",
+        "scientificName": "Solenostemon",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 2,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 7,
+        "potSize": [
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Croton Plant",
+        "scientificName": "Codiaeum variegatum",
+        "plantType": "shrub",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Crown of Thorns Plant",
+        "scientificName": "Euphorbia milii",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Ctenanthe Plant",
+        "scientificName": "Ctenanthe oppenheimiana",
+        "plantType": "tropical",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Cyclamen Plant",
+        "scientificName": "Cyclamen persicum",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold"
+        ],
+        "tempDifficulty": 3,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Desert Rose Plant",
+        "scientificName": "Adenium obesum",
+        "plantType": "succulent",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Dieffenbachia Plant",
+        "scientificName": "Dieffenbachia compacta",
+        "plantType": "tropical",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 2,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Donkey’s Tail Plant",
+        "scientificName": "Sedum Morganianum",
+        "plantType": "succulent",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Dracaena Compacta",
+        "scientificName": "d.fragrans",
+        "plantType": "shrub",
+        "light": [
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 6,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Dracaena Lemon Lime",
+        "scientificName": "Dracaena Deremensis",
+        "plantType": "shrub",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "warm"
+        ],
+        "tempDifficulty": 3,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Dracaena Marginata",
+        "scientificName": "D. marginata",
+        "plantType": "shrub",
+        "light": [
+            "low",
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Dracaena Massangeana",
+        "scientificName": "D. fragrans massangeana",
+        "plantType": "shrub",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 3,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Dracaena Reflexa",
+        "scientificName": "D. reflexa",
+        "plantType": "shrub",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 4,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Easter Lily Plant",
+        "scientificName": "Lilium Longiflorum",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 2,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Emerald Gem Plant",
+        "scientificName": "Homalomena",
+        "plantType": "tropical",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "English Ivy Plant",
+        "scientificName": "Hedera helix",
+        "plantType": "vine",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Fatsia Plant",
+        "scientificName": "Fatsia japonica",
+        "plantType": "evergreen",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold"
+        ],
+        "tempDifficulty": 3,
+        "totalDifficulty": 7,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Ficus Alii Plant",
+        "scientificName": "Ficus maclellandii",
+        "plantType": "shrub",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Ficus Pumila",
+        "scientificName": "Ficus repens",
+        "plantType": "shrub",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Ficus Tree",
+        "scientificName": "Ficus Benjamina",
+        "plantType": "shrub",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Fiddle Leaf Fig Plant",
+        "scientificName": "Ficus lyrata",
+        "plantType": "shrub",
+        "light": [
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Fishtail Palm",
+        "scientificName": "Caryota mitis",
+        "plantType": "palm",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Fittonia Plant",
+        "scientificName": "Fittonia verschaffetii",
+        "plantType": "tropical",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Gardenia Plant",
+        "scientificName": "Gardenia jasminoides",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 3,
+        "waterDifficulty": 2,
+        "temperature": [
+            "cold",
+            "cool"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Geranium Plant",
+        "scientificName": "Geranium Pelargonium",
+        "plantType": "flowering",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 6,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Grape Ivy Plant",
+        "scientificName": "Cissus rhombifolia",
+        "plantType": "vine",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 4,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Hawaiian Schefflera Plant",
+        "scientificName": "Schefflera arboricola",
+        "plantType": "shrub",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 2,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Heartleaf Philodendron",
+        "scientificName": "Scandens oxycardium",
+        "plantType": "vine",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 4,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Hibiscus Plant",
+        "scientificName": "Hibiscus trionum",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Hindu Rope Plant",
+        "scientificName": "Hoya Carnosa Compacta",
+        "plantType": "vine",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 4,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Hoya Plant",
+        "scientificName": "Hoya carnosa",
+        "plantType": "flowering",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 3,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Hoya Shooting Stars Plant",
+        "scientificName": "Hoya Multiflora",
+        "plantType": "flowering",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Jade Plant",
+        "scientificName": "Crassula ovata",
+        "plantType": "succulent",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Kalanchoe Plant",
+        "scientificName": "Kalanchoe blossfeldiana",
+        "plantType": "succulent",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": true,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Kangaroo Paw Fern",
+        "scientificName": "Microsorum diversifolium",
+        "plantType": "fern",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "warm"
+        ],
+        "tempDifficulty": 3,
+        "totalDifficulty": 6,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Kentia Palm",
+        "scientificName": "Howea forsteriana",
+        "plantType": "palm",
+        "light": [
+            "low",
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Kimberly Queen Fern",
+        "scientificName": "Nephrolepsis obliterata",
+        "plantType": "fern",
+        "light": [
+            "low",
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 7,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Lipstick Plant",
+        "scientificName": "Aeschynanth",
+        "plantType": "vine",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Lucky Bamboo Plant",
+        "scientificName": "Dracaena sanderiana",
+        "plantType": "evergreen",
+        "light": [
+            "low",
+            "medium"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 5,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Maidenhair Fern",
+        "scientificName": "Adiantum raddianum",
+        "plantType": "fern",
+        "light": [
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 2,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Majesty Palm",
+        "scientificName": "Ravenea Rivularis",
+        "plantType": "palm",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Marble Queen Pothos Plant",
+        "scientificName": "Epipremnum Aureum",
+        "plantType": "evergreen",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 3,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Stromanthe Tricolor Plant",
+        "scientificName": "Stromanthe sanguinea",
+        "plantType": "tropical",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Swedish Ivy Plant",
+        "scientificName": "Plectranthus australis",
+        "plantType": "vine",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 1,
+        "temperature": [
+            "warm"
+        ],
+        "tempDifficulty": 3,
+        "totalDifficulty": 7,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Ti Plant",
+        "scientificName": "Cordyline terminalis",
+        "plantType": "shrub",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 7,
+        "potSize": [
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Wandering Jew Plant",
+        "scientificName": "Tradescantia zebrina",
+        "plantType": "flowering",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 2,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 6,
+        "potSize": [
+            "small",
+            "medium"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "Yucca Plant",
+        "scientificName": "Yucca elephantipes",
+        "plantType": "shrub",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 3,
+        "potSize": [
+            "small"
+        ],
+        "isPoisonous": false
+    },
+    {
+        "commonName": "ZZ Plant",
+        "scientificName": "Zamioculcas zamiifolia",
+        "plantType": "evergreen",
+        "light": [
+            "low",
+            "medium",
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 1,
+        "waterDifficulty": 1,
+        "temperature": [
+            "cold",
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 1,
+        "totalDifficulty": 3,
+        "potSize": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "isPoisonous": true
+    },
+    {
+        "commonName": "Zebra Plant",
+        "scientificName": "Aphelandra squarrosa",
+        "plantType": "tropical",
+        "light": [
+            "high"
+        ],
+        "needsDirectLight": false,
+        "lightDifficulty": 3,
+        "waterDifficulty": 3,
+        "temperature": [
+            "cool",
+            "warm"
+        ],
+        "tempDifficulty": 2,
+        "totalDifficulty": 8,
+        "potSize": [
+            "medium"
+        ],
+        "isPoisonous": false
     }
 ]

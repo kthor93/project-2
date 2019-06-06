@@ -95,7 +95,8 @@ h3 {
   width: 100%;
   background-image: url("../assets/background-image2.png");
   background-size: cover;
-  background-position: center center;
+  background-position: center bottom;
+  background-attachment: fixed;
 }
 
 #survey {

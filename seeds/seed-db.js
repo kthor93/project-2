@@ -9,8 +9,10 @@ db.sequelize.sync({ force: true }).then(function() {
   db.Plant.bulkCreate(plants)
     .then(function() {
       console.log('seeded');
+      db.sequelize.close();
     })
     .catch(function(err) {
       console.log(err);
+      db.sequelize.close();
     });
 });

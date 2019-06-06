@@ -70,8 +70,11 @@ module.exports = function (app) {
         name: name,
         email: email,
         results: results
-      })
-      res.json(response)
-    })
-  })
-}
+      }).then(function () {
+        res.json(response)
+      }).catch(function (err) {
+        res.status(500).json({ error: err.message });
+      });
+    });
+  });
+};
