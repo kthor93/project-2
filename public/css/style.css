@@ -111,7 +111,7 @@ h3 {
   position: relative;
 }
 
-input {
+input, input[type=email] {
   height: 40px;
   width: 280px;
 }

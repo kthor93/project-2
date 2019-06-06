@@ -2,9 +2,9 @@ var db = require('../models');
 const Sequelize = require("sequelize");
 const Op = Sequelize.Op;
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.get('/api/users', function (req, res) {
-    db.User.findAll().then(function(users) {
+    db.User.findAll().then(function (users) {
       res.json(users);
     });
   });
@@ -28,13 +28,13 @@ module.exports = function(app) {
     })
   })
 
-  app.get('/api/plants', function(req, res) {
-    db.Plant.findAll().then(function(plants) {
+  app.get('/api/plants', function (req, res) {
+    db.Plant.findAll().then(function (plants) {
       res.json(plants);
     });
   });
 
-  app.post('/api/plants', function(req, res) {
+  app.post('/api/plants', function (req, res) {
     const potSize = (req.body.plantType == "noPreference" ? "medium" : req.body.potSize);
     const isPoisonous = (req.body.isPoisonous == 0 ? [0] : [0, 1]);
     const name = req.body.name;
@@ -51,7 +51,7 @@ module.exports = function(app) {
           [Op.substring]: req.body.temperature
         },
         light: {
-        [Op.substring]: req.body.light
+          [Op.substring]: req.body.light
         },
         plantType: {
           [Op.or]: req.body.plantType
@@ -60,7 +60,7 @@ module.exports = function(app) {
           [Op.substring]: potSize
         }
       }
-    }).then(function  (response) {
+    }).then(function (response) {
       const results = [];
       response.forEach(function (plant) {
         results.push(plant.dataValues.commonName)
@@ -73,5 +73,5 @@ module.exports = function(app) {
       })
       res.json(response)
     })
-})
+  })
 }
