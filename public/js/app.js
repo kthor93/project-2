@@ -100,7 +100,8 @@ $(function () {
         break;
       case "submit":
         email = $("#email").val();
-        $("#survey").empty();
+        $("#survey").hide();
+        $("#results").show();
         request = {
           name: name,
           email: email,
@@ -155,7 +156,7 @@ $(function () {
           const temperature = plant.temperature;
           const needsDirectLight =
             plant.needsDirectLight == "true" ? "Yes" : "No";
-          $("#survey").append(
+          $("#results").append(
             `<span class="plantCard"><p>Plant Name:${name}</p><p>Safe for Pets? ${petSafe}</p><p>Plant Type: ${type}</p><img src=${src}><p>Light Needs: ${light}</p><p>Needs Direct Light? ${needsDirectLight}</p><p>Best Temperature Range: ${temperature}</p></span>`
           );
         });

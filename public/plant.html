@@ -2,57 +2,192 @@
 <html lang="en" class="h-100vh">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Parse.ly</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Parse.ly</title>
 
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/flexboxgrid.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/flexboxgrid.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body class="h-100vh">
-  <header class="w-100" id="header-bar">
-    <div class="container-fluid h-100">
-      <div class="row h-100 middle-xs">
-        <div class="col-sm-6 col-xs-12 start-sm center-xs">
-          <h1><a id="brand" href="/">Parse.ly</a></h1>
-        </div>
-        <div class="col-sm-6 col-xs-12 end-sm center-xs">
-          <nav>
-            <a class="nav-link" href="/about">About Us</a>
-            <a class="nav-link" href="/profile">Your Account</a>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+	<header class="w-100" id="header-bar">
+		<div class="container-fluid h-100">
+			<div class="row h-100 middle-xs">
+				<div class="col-sm-6 col-xs-12 start-sm center-xs">
+					<h1><a id="brand" href="/">Parse.ly</a></h1>
+				</div>
+				<div class="col-sm-6 col-xs-12 end-sm center-xs">
+					<nav>
+						<a class="nav-link" href="/about">About Us</a>
+						<a class="nav-link" href="/profile">Your Account</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
 
-  <main class="h-100">
-    <div class="container-fluid h-100" id="survey-section">
-      <div class="row middle-xs center-xs h-100">
-        <div class="col-sm-6 col-xs-12" id="survey">
-          <h3 class="title">What is your name?</h3>
-          <input type="text" id="name">
-          <button id="question2">Next</button>
-        </div>
-      </div>
-      <div class="row center-xs">
-        <div class="col-xs-12">
-          <div id="results">
-
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
+	<main class="h-100">
+		<div class="container-fluid h-100" id="survey-section">
+			<div class="row middle-xs center-xs h-100">
+				<div class="col-sm-6 col-xs-12" id="survey">
+					<h3 class="title">What is your name?</h3>
+					<input type="text" id="name">
+					<button id="question2">Next</button>
+				</div>
+				<div class="col-sm-6 col-xs-12" id="results-tite">
+					<h3 class="title">Your Plant Matches</h3>
+				</div>
+				<div class="col-sm-9 col-xs-12" id="results">
+					<div class="plant-card">
+						<img src="assets/tropical.svg">
+						<p class="plant-name">Bird of Paradise</p>
+						<p class="scientific-name">Paradisaeidae</p>
+						<div class="specs">
+							<div class="plant-type">
+								<label class="plant-labels">Water</label>
+								<p>Tropical</p>
+							</div>
+							<div class="light-needs">
+								<label class="plant-labels">Light</label>
+								<p>Low Light</p>
+							</div>
+							<div class="temp-needs">
+								<label class="plant-labels">Temperature</label>
+								<p>70-80 F</p>
+							</div>
+							<div class="difficulty">
+								<label class="plant-labels">Difficulty</label>
+								<p>Medium</p>
+							</div>
+						</div>
+					</div>
+					<div class="plant-card">
+						<img src="assets/tropical.svg">
+						<p class="plant-name">Bird of Paradise</p>
+						<p class="scientific-name">Paradisaeidae</p>
+						<div class="specs">
+							<div class="plant-type">
+								<label class="plant-labels">Water</label>
+								<p>Tropical</p>
+							</div>
+							<div class="light-needs">
+								<label class="plant-labels">Light</label>
+								<p>Low Light</p>
+							</div>
+							<div class="temp-needs">
+								<label class="plant-labels">Temperature</label>
+								<p>70-80 F</p>
+							</div>
+							<div class="difficulty">
+								<label class="plant-labels">Difficulty</label>
+								<p>Medium</p>
+							</div>
+						</div>
+					</div>
+					<div class="plant-card">
+						<img src="assets/tropical.svg">
+						<p class="plant-name">Bird of Paradise</p>
+						<p class="scientific-name">Paradisaeidae</p>
+						<div class="specs">
+							<div class="plant-type">
+								<label class="plant-labels">Water</label>
+								<p>Tropical</p>
+							</div>
+							<div class="light-needs">
+								<label class="plant-labels">Light</label>
+								<p>Low Light</p>
+							</div>
+							<div class="temp-needs">
+								<label class="plant-labels">Temperature</label>
+								<p>70-80 F</p>
+							</div>
+							<div class="difficulty">
+								<label class="plant-labels">Difficulty</label>
+								<p>Medium</p>
+							</div>
+						</div>
+					</div>
+					<div class="plant-card">
+						<img src="assets/tropical.svg">
+						<p class="plant-name">Bird of Paradise</p>
+						<p class="scientific-name">Paradisaeidae</p>
+						<div class="specs">
+							<div class="plant-type">
+								<label class="plant-labels">Water</label>
+								<p>Tropical</p>
+							</div>
+							<div class="light-needs">
+								<label class="plant-labels">Light</label>
+								<p>Low Light</p>
+							</div>
+							<div class="temp-needs">
+								<label class="plant-labels">Temperature</label>
+								<p>70-80 F</p>
+							</div>
+							<div class="difficulty">
+								<label class="plant-labels">Difficulty</label>
+								<p>Medium</p>
+							</div>
+						</div>
+					</div>
+					<div class="plant-card">
+						<img src="assets/tropical.svg">
+						<p class="plant-name">Bird of Paradise</p>
+						<p class="scientific-name">Paradisaeidae</p>
+						<div class="specs">
+							<div class="plant-type">
+								<label class="plant-labels">Water</label>
+								<p>Tropical</p>
+							</div>
+							<div class="light-needs">
+								<label class="plant-labels">Light</label>
+								<p>Low Light</p>
+							</div>
+							<div class="temp-needs">
+								<label class="plant-labels">Temperature</label>
+								<p>70-80 F</p>
+							</div>
+							<div class="difficulty">
+								<label class="plant-labels">Difficulty</label>
+								<p>Medium</p>
+							</div>
+						</div>
+					</div>
+					<div class="plant-card">
+						<img src="assets/tropical.svg">
+						<p class="plant-name">Bird of Paradise</p>
+						<p class="scientific-name">Paradisaeidae</p>
+						<div class="specs">
+							<div class="plant-type">
+								<label class="plant-labels">Water</label>
+								<p>Tropical</p>
+							</div>
+							<div class="light-needs">
+								<label class="plant-labels">Light</label>
+								<p>Low Light</p>
+							</div>
+							<div class="temp-needs">
+								<label class="plant-labels">Temperature</label>
+								<p>70-80 F</p>
+							</div>
+							<div class="difficulty">
+								<label class="plant-labels">Difficulty</label>
+								<p>Medium</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
 
 </body>
 

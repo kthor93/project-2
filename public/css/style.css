@@ -109,6 +109,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   position: relative;
+  display: none;
 }
 
 input, input[type=email] {
@@ -168,4 +169,52 @@ input[type=checkbox]+label:hover {
 
 input[type=checkbox]:checked+label {
   border: 1px solid #2ad98e;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.plant-card {
+  background: linear-gradient(to bottom, #E8F0EC 75%, #fff 0%);
+  width: 25%;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.plant-name {
+  font-weight: 600;
+  margin: 20px 0 5px 0;
+  font-size: 18px;
+}
+
+.scientific-name {
+  color: #666;
+  font-size: 14px;
+}
+
+.specs {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 55px;
+}
+
+.specs p {
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.plant-labels {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 0.02em;
 }
