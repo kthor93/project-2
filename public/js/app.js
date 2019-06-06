@@ -158,12 +158,8 @@ $(function () {
           const difficulty = plant.totalDifficulty;
           const needsDirectLight =
             plant.needsDirectLight == "true" ? "Yes" : "No";
-          $(".hidden").append(
-            `<div class="col-sm-6 col-xs-12" id="results-tite">
-            <h3 class="title">Your Plant Matches</h3>
-          </div>
-          <div class="col-sm-9 col-xs-12" id="results">
-            <div class="plant-card">
+          $("#results").append(
+            `<div class="plant-card">
               <img src="assets/tropical.svg">
               <p class="plant-name">${name}</p>
               <p class="plant-type">${type}</p>
@@ -185,7 +181,6 @@ $(function () {
                   <p>Medium</p>
                 </div>
               </div>
-            </div>
           </div>`
           );
         });
