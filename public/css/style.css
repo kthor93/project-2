@@ -109,7 +109,6 @@ h3 {
   align-items: center;
   flex-direction: column;
   position: relative;
-  display: none;
 }
 
 input, input[type=email] {
@@ -171,6 +170,12 @@ input[type=checkbox]:checked+label {
   border: 1px solid #2ad98e;
 }
 
+.hidden {
+  display: none;
+  width: 100%;
+  margin: auto 0;
+}
+
 #results {
   display: flex;
   flex-direction: row;
@@ -194,7 +199,7 @@ input[type=checkbox]:checked+label {
   font-size: 18px;
 }
 
-.scientific-name {
+.plant-name {
   color: #666;
   font-size: 14px;
 }

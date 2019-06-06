@@ -101,7 +101,7 @@ $(function () {
       case "submit":
         email = $("#email").val();
         $("#survey").hide();
-        $("#results").show();
+        $(".hidden").show();
         request = {
           name: name,
           email: email,
@@ -154,13 +154,44 @@ $(function () {
           }
           const light = plant.light;
           const temperature = plant.temperature;
+          const water = plant.waterDifficulty;
+          const difficulty = plant.totalDifficulty;
           const needsDirectLight =
             plant.needsDirectLight == "true" ? "Yes" : "No";
-          $("#results").append(
-            `<span class="plantCard"><p>Plant Name:${name}</p><p>Safe for Pets? ${petSafe}</p><p>Plant Type: ${type}</p><img src=${src}><p>Light Needs: ${light}</p><p>Needs Direct Light? ${needsDirectLight}</p><p>Best Temperature Range: ${temperature}</p></span>`
+          $(".hidden").append(
+            `<div class="col-sm-6 col-xs-12" id="results-tite">
+            <h3 class="title">Your Plant Matches</h3>
+          </div>
+          <div class="col-sm-9 col-xs-12" id="results">
+            <div class="plant-card">
+              <img src="assets/tropical.svg">
+              <p class="plant-name">${name}</p>
+              <p class="plant-type">${type}</p>
+              <div class="specs">
+                <div class="plant-water">
+                  <label class="plant-labels">${water}</label>
+                  <p>Tropical</p>
+                </div>
+                <div class="light-needs">
+                  <label class="plant-labels">${light}</label>
+                  <p>Low Light</p>
+                </div>
+                <div class="temp-needs">
+                  <label class="plant-labels">${temperature}</label>
+                  <p>70-80 F</p>
+                </div>
+                <div class="difficulty">
+                  <label class="plant-labels">${difficulty}</label>
+                  <p>Medium</p>
+                </div>
+              </div>
+            </div>
+          </div>`
           );
         });
       });
     }
   });
 });
+
+            // <span class="plantCard"><p>Plant Name:${name}</p><p>Safe for Pets? ${petSafe}</p><p>Plant Type: ${type}</p><img src=${src}><p>Light Needs: ${light}</p><p>Needs Direct Light? ${needsDirectLight}</p><p>Best Temperature Range: ${temperature}</p></span>
