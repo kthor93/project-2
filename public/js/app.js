@@ -90,7 +90,7 @@ $(function () {
         $("#survey").append(
           `<h3>What pot size would you prefer?</h3>
           <div class="choices">
-          <input type="radio" name="potSize" id="small" value="small"><label for="small">Small </label><input type="radio" name="potSize" id="medium" value="medium"><label for="medium">Medium </label><input type="radio" name="potSize" id="large" value="large"><label for="large">Large </label><input type="radio" name="potSize" id="noPreference" value="noPreference"><label for="noPreference">No preference </label></div><button id="question8">Next</button>`
+          <input type="radio" name="potSize" id="small" value="small"><label for="small">Small </label><input type="radio" name="potSize" id="medium" value="medium"><label for="medium">Medium </label><input type="radio" name="potSize" id="large" value="large"><label for="large">Large </label></div><button id="question8">Next</button>`
         );
         break;
       case "question8":
